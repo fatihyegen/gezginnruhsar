@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sehir_graph"
+    app:startDestination="@id/sehirlistesifragment">
+
+    <fragment
+        android:id="@+id/sehirlistesifragment"
+        android:name="com.example.gezginnruhsarr.sehirlistesifragment"
+        android:label="sehirlistesifragment" >
+        <action
+            android:id="@+id/action_sehirlistesifragment_to_sehirdetayifragment"
+            app:destination="@id/sehirdetayifragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sehirdetayifragment"
+        android:name="com.example.gezginnruhsarr.Sehirdetayifragment"
+        android:label="Sehirdetayifragment" >
+        <action
+            android:id="@+id/action_sehirdetayifragment_to_sehirlistesifragment"
+            app:destination="@id/sehirlistesifragment" />
+        <argument
+            android:name="sehirid"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

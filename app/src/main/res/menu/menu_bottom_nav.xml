@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itsehirlistesi"
+        android:title="Şehir Listesi"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_location_city_24"
+        />
+
+    <item
+        android:id="@+id/itkullanici"
+        android:title="Kullanıcı"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/kullanici"
+        />
+</menu>

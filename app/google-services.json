@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482266666121",
+    "project_id": "gezelimmigorelim",
+    "storage_bucket": "gezelimmigorelim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482266666121:android:7987967509c7988e04a258",
+        "android_client_info": {
+          "package_name": "com.example.gezginnruhsarr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYQEGL2QX45zNE4RgHhDvuhnDh-l9MaJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
